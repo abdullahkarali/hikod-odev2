@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #284a64;
+}
+
+.container .content-title {
+    text-align: center;
+    margin: 25px 0 25px 0;
+    padding-top: 25px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+header .logo {
+    width: 20%;
+    height: 100px;
+}
+
+header .header-right {
+    background-color: #263f54;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar {
+    background: #192938;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 16px 20px;
+    gap: 50px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #6aa2c6;
+    transition: 0.2s;
+
+}
+
+.navbar ul li a:hover {
+    color: #ccddeb;
+    transition: 0.2s;
+}
+
+main article .news {
+    background-color: #ccddeb;
+}
+
+main article section .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    margin-bottom: 25px;
+
+}
+
+main article section .box-container .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    margin-bottom: 25px;
+}
+
+main article section .box-container .box span {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: block;
+}
+
+main article .about p {
+
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+
+main article .services {
+    background-color: #ccddeb;
+}
+
+main .services .box-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 80px;
+    padding: 0 0 25px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+main article section .box-container2 .box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.container footer {
+    height: 600px;
+}
+
+.container footer .contact-content {
+    margin-left: 25px;
+}
+
+.container footer .contact-content .contact-title {
+    font-size: 18px;
+    padding: 16px 0px;
+    cursor:alias;
+}
+
+.container footer .contact-content input,
+.container footer .contact-content textarea {
+    border: none;
+    outline: none;
+    height: 32px;
+    padding: 5px;
+    background: #fff;
+    color: #192938;
+
+}
+
+.container footer .contact-content textarea{
+    resize: none;
+    width: 168px;
+    height: 80px;
+}
+
+.container footer .contact-content input::placeholder,
+.container footer .contact-content textarea::placeholder{
+    color: #192938;
+    opacity: 1;
+}
+
+.container footer .contact-content button{
+    width: 168px;
+    margin-top: 25px;
+    height: 30px;
+    background-color:#366c93 ;
+    border: none;
+    transition: 0.2s;
+    border: 1px solid #2c5778;
+}
+
+.container footer .contact-content button:hover{
+    background: #272e44;
+    color: #d0dded;
+    border: 1px solid #2c5778;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
